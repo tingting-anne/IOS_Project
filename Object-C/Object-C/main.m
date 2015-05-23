@@ -10,6 +10,7 @@
 #import "Runtime.h"
 #import "bridge.h"
 #import "BasicGreeter.h"
+#import "fundationClass.h"
 
 int main(int argc, const char * argv[])
 {
@@ -36,6 +37,12 @@ int main(int argc, const char * argv[])
         id<Greeter> greeter = [[BasicGreeter alloc] init]; //强制成Id，并且遵守Greeter方法
         NSLog(@"%@", [greeter greeting:@"Hello"]);
         [greeter a];
+        
+        char a[1024];
+        scanf("%s", a);
+        
+        fundationClass* bundletest = [[fundationClass alloc]init];
+        [bundletest testBundle:a];
     }
     return 0;
 }

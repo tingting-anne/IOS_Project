@@ -10,4 +10,6 @@
 
 @interface fundationClass : NSObject
 
+-(void)testBundle:(const char *) path;
+
 @end
