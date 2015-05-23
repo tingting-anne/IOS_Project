@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAB8F3C71A18408500C1E4F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB8F3C61A18408500C1E4F9 /* Foundation.framework */; };
+		EAB8F3C91A18408500C1E4F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB8F3C81A18408500C1E4F9 /* CoreGraphics.framework */; };
+		EAB8F3CB1A18408500C1E4F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB8F3CA1A18408500C1E4F9 /* UIKit.framework */; };
+		EAB8F3D11A18408500C1E4F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAB8F3CF1A18408500C1E4F9 /* InfoPlist.strings */; };
+		EAB8F3D31A18408500C1E4F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB8F3D21A18408500C1E4F9 /* main.m */; };
+		EAB8F3D71A18408500C1E4F9 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB8F3D61A18408500C1E4F9 /* BIDAppDelegate.m */; };
+		EAB8F3DA1A18408500C1E4F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB8F3D81A18408500C1E4F9 /* Main.storyboard */; };
+		EAB8F3DD1A18408500C1E4F9 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB8F3DC1A18408500C1E4F9 /* BIDViewController.m */; };
+		EAB8F3DF1A18408500C1E4F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB8F3DE1A18408500C1E4F9 /* Images.xcassets */; };
+		EAB8F3E61A18408500C1E4F9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB8F3E51A18408500C1E4F9 /* XCTest.framework */; };
+		EAB8F3E71A18408500C1E4F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB8F3C61A18408500C1E4F9 /* Foundation.framework */; };
+		EAB8F3E81A18408500C1E4F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB8F3CA1A18408500C1E4F9 /* UIKit.framework */; };
+		EAB8F3F01A18408500C1E4F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAB8F3EE1A18408500C1E4F9 /* InfoPlist.strings */; };
+		EAB8F3F21A18408500C1E4F9 /* ApressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB8F3F11A18408500C1E4F9 /* ApressTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAB8F3E91A18408500C1E4F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAB8F3BB1A18408500C1E4F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAB8F3C21A18408500C1E4F9;
+			remoteInfo = Apress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAB8F3C31A18408500C1E4F9 /* Apress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB8F3C61A18408500C1E4F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EAB8F3C81A18408500C1E4F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EAB8F3CA1A18408500C1E4F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EAB8F3CE1A18408500C1E4F9 /* Apress-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Apress-Info.plist"; sourceTree = "<group>"; };
+		EAB8F3D01A18408500C1E4F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAB8F3D21A18408500C1E4F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAB8F3D41A18408500C1E4F9 /* Apress-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Apress-Prefix.pch"; sourceTree = "<group>"; };
+		EAB8F3D51A18408500C1E4F9 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		EAB8F3D61A18408500C1E4F9 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		EAB8F3D91A18408500C1E4F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAB8F3DB1A18408500C1E4F9 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		EAB8F3DC1A18408500C1E4F9 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		EAB8F3DE1A18408500C1E4F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAB8F3E41A18408500C1E4F9 /* ApressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB8F3E51A18408500C1E4F9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EAB8F3ED1A18408500C1E4F9 /* ApressTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ApressTests-Info.plist"; sourceTree = "<group>"; };
+		EAB8F3EF1A18408500C1E4F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAB8F3F11A18408500C1E4F9 /* ApressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApressTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAB8F3C01A18408500C1E4F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB8F3C91A18408500C1E4F9 /* CoreGraphics.framework in Frameworks */,
+				EAB8F3CB1A18408500C1E4F9 /* UIKit.framework in Frameworks */,
+				EAB8F3C71A18408500C1E4F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB8F3E11A18408500C1E4F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB8F3E61A18408500C1E4F9 /* XCTest.framework in Frameworks */,
+				EAB8F3E81A18408500C1E4F9 /* UIKit.framework in Frameworks */,
+				EAB8F3E71A18408500C1E4F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAB8F3BA1A18408500C1E4F9 = {
+			isa = PBXGroup;
+			children = (
+				EAB8F3CC1A18408500C1E4F9 /* Apress */,
+				EAB8F3EB1A18408500C1E4F9 /* ApressTests */,
+				EAB8F3C51A18408500C1E4F9 /* Frameworks */,
+				EAB8F3C41A18408500C1E4F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAB8F3C41A18408500C1E4F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAB8F3C31A18408500C1E4F9 /* Apress.app */,
+				EAB8F3E41A18408500C1E4F9 /* ApressTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAB8F3C51A18408500C1E4F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAB8F3C61A18408500C1E4F9 /* Foundation.framework */,
+				EAB8F3C81A18408500C1E4F9 /* CoreGraphics.framework */,
+				EAB8F3CA1A18408500C1E4F9 /* UIKit.framework */,
+				EAB8F3E51A18408500C1E4F9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAB8F3CC1A18408500C1E4F9 /* Apress */ = {
+			isa = PBXGroup;
+			children = (
+				EAB8F3D51A18408500C1E4F9 /* BIDAppDelegate.h */,
+				EAB8F3D61A18408500C1E4F9 /* BIDAppDelegate.m */,
+				EAB8F3D81A18408500C1E4F9 /* Main.storyboard */,
+				EAB8F3DB1A18408500C1E4F9 /* BIDViewController.h */,
+				EAB8F3DC1A18408500C1E4F9 /* BIDViewController.m */,
+				EAB8F3DE1A18408500C1E4F9 /* Images.xcassets */,
+				EAB8F3CD1A18408500C1E4F9 /* Supporting Files */,
+			);
+			path = Apress;
+			sourceTree = "<group>";
+		};
+		EAB8F3CD1A18408500C1E4F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAB8F3CE1A18408500C1E4F9 /* Apress-Info.plist */,
+				EAB8F3CF1A18408500C1E4F9 /* InfoPlist.strings */,
+				EAB8F3D21A18408500C1E4F9 /* main.m */,
+				EAB8F3D41A18408500C1E4F9 /* Apress-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAB8F3EB1A18408500C1E4F9 /* ApressTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAB8F3F11A18408500C1E4F9 /* ApressTests.m */,
+				EAB8F3EC1A18408500C1E4F9 /* Supporting Files */,
+			);
+			path = ApressTests;
+			sourceTree = "<group>";
+		};
+		EAB8F3EC1A18408500C1E4F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAB8F3ED1A18408500C1E4F9 /* ApressTests-Info.plist */,
+				EAB8F3EE1A18408500C1E4F9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAB8F3C21A18408500C1E4F9 /* Apress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB8F3F51A18408600C1E4F9 /* Build configuration list for PBXNativeTarget "Apress" */;
+			buildPhases = (
+				EAB8F3BF1A18408500C1E4F9 /* Sources */,
+				EAB8F3C01A18408500C1E4F9 /* Frameworks */,
+				EAB8F3C11A18408500C1E4F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Apress;
+			productName = Apress;
+			productReference = EAB8F3C31A18408500C1E4F9 /* Apress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAB8F3E31A18408500C1E4F9 /* ApressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB8F3F81A18408600C1E4F9 /* Build configuration list for PBXNativeTarget "ApressTests" */;
+			buildPhases = (
+				EAB8F3E01A18408500C1E4F9 /* Sources */,
+				EAB8F3E11A18408500C1E4F9 /* Frameworks */,
+				EAB8F3E21A18408500C1E4F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAB8F3EA1A18408500C1E4F9 /* PBXTargetDependency */,
+			);
+			name = ApressTests;
+			productName = ApressTests;
+			productReference = EAB8F3E41A18408500C1E4F9 /* ApressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAB8F3BB1A18408500C1E4F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					EAB8F3E31A18408500C1E4F9 = {
+						TestTargetID = EAB8F3C21A18408500C1E4F9;
+					};
+				};
+			};
+			buildConfigurationList = EAB8F3BE1A18408500C1E4F9 /* Build configuration list for PBXProject "Apress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAB8F3BA1A18408500C1E4F9;
+			productRefGroup = EAB8F3C41A18408500C1E4F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAB8F3C21A18408500C1E4F9 /* Apress */,
+				EAB8F3E31A18408500C1E4F9 /* ApressTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAB8F3C11A18408500C1E4F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB8F3DF1A18408500C1E4F9 /* Images.xcassets in Resources */,
+				EAB8F3D11A18408500C1E4F9 /* InfoPlist.strings in Resources */,
+				EAB8F3DA1A18408500C1E4F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB8F3E21A18408500C1E4F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB8F3F01A18408500C1E4F9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAB8F3BF1A18408500C1E4F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB8F3D71A18408500C1E4F9 /* BIDAppDelegate.m in Sources */,
+				EAB8F3DD1A18408500C1E4F9 /* BIDViewController.m in Sources */,
+				EAB8F3D31A18408500C1E4F9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB8F3E01A18408500C1E4F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB8F3F21A18408500C1E4F9 /* ApressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAB8F3EA1A18408500C1E4F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAB8F3C21A18408500C1E4F9 /* Apress */;
+			targetProxy = EAB8F3E91A18408500C1E4F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAB8F3CF1A18408500C1E4F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB8F3D01A18408500C1E4F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EAB8F3D81A18408500C1E4F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB8F3D91A18408500C1E4F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAB8F3EE1A18408500C1E4F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB8F3EF1A18408500C1E4F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAB8F3F31A18408600C1E4F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAB8F3F41A18408600C1E4F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAB8F3F61A18408600C1E4F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Apress/Apress-Prefix.pch";
+				INFOPLIST_FILE = "Apress/Apress-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EAB8F3F71A18408600C1E4F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Apress/Apress-Prefix.pch";
+				INFOPLIST_FILE = "Apress/Apress-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EAB8F3F91A18408600C1E4F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Apress.app/Apress";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Apress/Apress-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ApressTests/ApressTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EAB8F3FA1A18408600C1E4F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Apress.app/Apress";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Apress/Apress-Prefix.pch";
+				INFOPLIST_FILE = "ApressTests/ApressTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAB8F3BE1A18408500C1E4F9 /* Build configuration list for PBXProject "Apress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB8F3F31A18408600C1E4F9 /* Debug */,
+				EAB8F3F41A18408600C1E4F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB8F3F51A18408600C1E4F9 /* Build configuration list for PBXNativeTarget "Apress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB8F3F61A18408600C1E4F9 /* Debug */,
+				EAB8F3F71A18408600C1E4F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB8F3F81A18408600C1E4F9 /* Build configuration list for PBXNativeTarget "ApressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB8F3F91A18408600C1E4F9 /* Debug */,
+				EAB8F3FA1A18408600C1E4F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAB8F3BB1A18408500C1E4F9 /* Project object */;
+}

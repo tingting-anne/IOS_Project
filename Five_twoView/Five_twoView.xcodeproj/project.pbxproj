@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA5E26681B0E02E7009061DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5E26671B0E02E7009061DB /* Foundation.framework */; };
+		EA5E266A1B0E02E7009061DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5E26691B0E02E7009061DB /* CoreGraphics.framework */; };
+		EA5E266C1B0E02E7009061DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5E266B1B0E02E7009061DB /* UIKit.framework */; };
+		EA5E26721B0E02E7009061DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA5E26701B0E02E7009061DB /* InfoPlist.strings */; };
+		EA5E26741B0E02E7009061DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5E26731B0E02E7009061DB /* main.m */; };
+		EA5E26781B0E02E7009061DB /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5E26771B0E02E7009061DB /* BIDAppDelegate.m */; };
+		EA5E267B1B0E02E7009061DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5E26791B0E02E7009061DB /* Main.storyboard */; };
+		EA5E267E1B0E02E7009061DB /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5E267D1B0E02E7009061DB /* BIDViewController.m */; };
+		EA5E26801B0E02E7009061DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5E267F1B0E02E7009061DB /* Images.xcassets */; };
+		EA5E26871B0E02E7009061DB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5E26861B0E02E7009061DB /* XCTest.framework */; };
+		EA5E26881B0E02E7009061DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5E26671B0E02E7009061DB /* Foundation.framework */; };
+		EA5E26891B0E02E7009061DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5E266B1B0E02E7009061DB /* UIKit.framework */; };
+		EA5E26911B0E02E7009061DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA5E268F1B0E02E7009061DB /* InfoPlist.strings */; };
+		EA5E26931B0E02E7009061DB /* Five_twoViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5E26921B0E02E7009061DB /* Five_twoViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA5E268A1B0E02E7009061DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA5E265C1B0E02E7009061DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA5E26631B0E02E7009061DB;
+			remoteInfo = Five_twoView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA5E26641B0E02E7009061DB /* Five_twoView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Five_twoView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5E26671B0E02E7009061DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA5E26691B0E02E7009061DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA5E266B1B0E02E7009061DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA5E266F1B0E02E7009061DB /* Five_twoView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Five_twoView-Info.plist"; sourceTree = "<group>"; };
+		EA5E26711B0E02E7009061DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA5E26731B0E02E7009061DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA5E26751B0E02E7009061DB /* Five_twoView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Five_twoView-Prefix.pch"; sourceTree = "<group>"; };
+		EA5E26761B0E02E7009061DB /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		EA5E26771B0E02E7009061DB /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		EA5E267A1B0E02E7009061DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA5E267C1B0E02E7009061DB /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		EA5E267D1B0E02E7009061DB /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		EA5E267F1B0E02E7009061DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA5E26851B0E02E7009061DB /* Five_twoViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Five_twoViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5E26861B0E02E7009061DB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA5E268E1B0E02E7009061DB /* Five_twoViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Five_twoViewTests-Info.plist"; sourceTree = "<group>"; };
+		EA5E26901B0E02E7009061DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA5E26921B0E02E7009061DB /* Five_twoViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Five_twoViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA5E26611B0E02E7009061DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5E266A1B0E02E7009061DB /* CoreGraphics.framework in Frameworks */,
+				EA5E266C1B0E02E7009061DB /* UIKit.framework in Frameworks */,
+				EA5E26681B0E02E7009061DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5E26821B0E02E7009061DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5E26871B0E02E7009061DB /* XCTest.framework in Frameworks */,
+				EA5E26891B0E02E7009061DB /* UIKit.framework in Frameworks */,
+				EA5E26881B0E02E7009061DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA5E265B1B0E02E7009061DB = {
+			isa = PBXGroup;
+			children = (
+				EA5E266D1B0E02E7009061DB /* Five_twoView */,
+				EA5E268C1B0E02E7009061DB /* Five_twoViewTests */,
+				EA5E26661B0E02E7009061DB /* Frameworks */,
+				EA5E26651B0E02E7009061DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA5E26651B0E02E7009061DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA5E26641B0E02E7009061DB /* Five_twoView.app */,
+				EA5E26851B0E02E7009061DB /* Five_twoViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA5E26661B0E02E7009061DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA5E26671B0E02E7009061DB /* Foundation.framework */,
+				EA5E26691B0E02E7009061DB /* CoreGraphics.framework */,
+				EA5E266B1B0E02E7009061DB /* UIKit.framework */,
+				EA5E26861B0E02E7009061DB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA5E266D1B0E02E7009061DB /* Five_twoView */ = {
+			isa = PBXGroup;
+			children = (
+				EA5E26761B0E02E7009061DB /* BIDAppDelegate.h */,
+				EA5E26771B0E02E7009061DB /* BIDAppDelegate.m */,
+				EA5E26791B0E02E7009061DB /* Main.storyboard */,
+				EA5E267C1B0E02E7009061DB /* BIDViewController.h */,
+				EA5E267D1B0E02E7009061DB /* BIDViewController.m */,
+				EA5E267F1B0E02E7009061DB /* Images.xcassets */,
+				EA5E266E1B0E02E7009061DB /* Supporting Files */,
+			);
+			path = Five_twoView;
+			sourceTree = "<group>";
+		};
+		EA5E266E1B0E02E7009061DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA5E266F1B0E02E7009061DB /* Five_twoView-Info.plist */,
+				EA5E26701B0E02E7009061DB /* InfoPlist.strings */,
+				EA5E26731B0E02E7009061DB /* main.m */,
+				EA5E26751B0E02E7009061DB /* Five_twoView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA5E268C1B0E02E7009061DB /* Five_twoViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA5E26921B0E02E7009061DB /* Five_twoViewTests.m */,
+				EA5E268D1B0E02E7009061DB /* Supporting Files */,
+			);
+			path = Five_twoViewTests;
+			sourceTree = "<group>";
+		};
+		EA5E268D1B0E02E7009061DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA5E268E1B0E02E7009061DB /* Five_twoViewTests-Info.plist */,
+				EA5E268F1B0E02E7009061DB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA5E26631B0E02E7009061DB /* Five_twoView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5E26961B0E02E7009061DB /* Build configuration list for PBXNativeTarget "Five_twoView" */;
+			buildPhases = (
+				EA5E26601B0E02E7009061DB /* Sources */,
+				EA5E26611B0E02E7009061DB /* Frameworks */,
+				EA5E26621B0E02E7009061DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Five_twoView;
+			productName = Five_twoView;
+			productReference = EA5E26641B0E02E7009061DB /* Five_twoView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA5E26841B0E02E7009061DB /* Five_twoViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5E26991B0E02E7009061DB /* Build configuration list for PBXNativeTarget "Five_twoViewTests" */;
+			buildPhases = (
+				EA5E26811B0E02E7009061DB /* Sources */,
+				EA5E26821B0E02E7009061DB /* Frameworks */,
+				EA5E26831B0E02E7009061DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA5E268B1B0E02E7009061DB /* PBXTargetDependency */,
+			);
+			name = Five_twoViewTests;
+			productName = Five_twoViewTests;
+			productReference = EA5E26851B0E02E7009061DB /* Five_twoViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA5E265C1B0E02E7009061DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					EA5E26841B0E02E7009061DB = {
+						TestTargetID = EA5E26631B0E02E7009061DB;
+					};
+				};
+			};
+			buildConfigurationList = EA5E265F1B0E02E7009061DB /* Build configuration list for PBXProject "Five_twoView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA5E265B1B0E02E7009061DB;
+			productRefGroup = EA5E26651B0E02E7009061DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA5E26631B0E02E7009061DB /* Five_twoView */,
+				EA5E26841B0E02E7009061DB /* Five_twoViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA5E26621B0E02E7009061DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5E26801B0E02E7009061DB /* Images.xcassets in Resources */,
+				EA5E26721B0E02E7009061DB /* InfoPlist.strings in Resources */,
+				EA5E267B1B0E02E7009061DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5E26831B0E02E7009061DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5E26911B0E02E7009061DB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA5E26601B0E02E7009061DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5E26781B0E02E7009061DB /* BIDAppDelegate.m in Sources */,
+				EA5E267E1B0E02E7009061DB /* BIDViewController.m in Sources */,
+				EA5E26741B0E02E7009061DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5E26811B0E02E7009061DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5E26931B0E02E7009061DB /* Five_twoViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA5E268B1B0E02E7009061DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA5E26631B0E02E7009061DB /* Five_twoView */;
+			targetProxy = EA5E268A1B0E02E7009061DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA5E26701B0E02E7009061DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA5E26711B0E02E7009061DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA5E26791B0E02E7009061DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA5E267A1B0E02E7009061DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA5E268F1B0E02E7009061DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA5E26901B0E02E7009061DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA5E26941B0E02E7009061DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA5E26951B0E02E7009061DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA5E26971B0E02E7009061DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Five_twoView/Five_twoView-Prefix.pch";
+				INFOPLIST_FILE = "Five_twoView/Five_twoView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA5E26981B0E02E7009061DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Five_twoView/Five_twoView-Prefix.pch";
+				INFOPLIST_FILE = "Five_twoView/Five_twoView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA5E269A1B0E02E7009061DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Five_twoView.app/Five_twoView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Five_twoView/Five_twoView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Five_twoViewTests/Five_twoViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EA5E269B1B0E02E7009061DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Five_twoView.app/Five_twoView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Five_twoView/Five_twoView-Prefix.pch";
+				INFOPLIST_FILE = "Five_twoViewTests/Five_twoViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA5E265F1B0E02E7009061DB /* Build configuration list for PBXProject "Five_twoView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5E26941B0E02E7009061DB /* Debug */,
+				EA5E26951B0E02E7009061DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5E26961B0E02E7009061DB /* Build configuration list for PBXNativeTarget "Five_twoView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5E26971B0E02E7009061DB /* Debug */,
+				EA5E26981B0E02E7009061DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA5E26991B0E02E7009061DB /* Build configuration list for PBXNativeTarget "Five_twoViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5E269A1B0E02E7009061DB /* Debug */,
+				EA5E269B1B0E02E7009061DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA5E265C1B0E02E7009061DB /* Project object */;
+}
