@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EA59AB631B0F1D370067254F"
+               BlueprintIdentifier = "EA4C52021B11FD3E00AF6838"
                BuildableName = "Object-C"
                BlueprintName = "Object-C"
                ReferencedContainer = "container:Object-C.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EA59AB631B0F1D370067254F"
+            BlueprintIdentifier = "EA4C52021B11FD3E00AF6838"
             BuildableName = "Object-C"
             BlueprintName = "Object-C"
             ReferencedContainer = "container:Object-C.xcodeproj">
@@ -51,12 +51,18 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EA59AB631B0F1D370067254F"
+            BlueprintIdentifier = "EA4C52021B11FD3E00AF6838"
             BuildableName = "Object-C"
             BlueprintName = "Object-C"
             ReferencedContainer = "container:Object-C.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "/Users/ltt_fly/Library/Developer/Xcode/DerivedData/bundle-cfqqxdltejlihecavcbadagkndeg/Build/Products/Debug/bundle.bundle"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -69,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EA59AB631B0F1D370067254F"
+            BlueprintIdentifier = "EA4C52021B11FD3E00AF6838"
             BuildableName = "Object-C"
             BlueprintName = "Object-C"
             ReferencedContainer = "container:Object-C.xcodeproj">

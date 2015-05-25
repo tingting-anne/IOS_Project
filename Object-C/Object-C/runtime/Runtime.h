@@ -26,6 +26,9 @@
 //动态增加类
 -(void)dyNamicClass;
 
+//动态关联实例的变量
+-(void)dyObjcVar;
+
 //测试类、对象结构
 -(void)objcInstance;
 -(void)objcClass;
@@ -33,4 +36,5 @@
 
 //测试父类子类调用函数
 -(void)func;
+
 @end

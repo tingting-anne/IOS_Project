@@ -60,12 +60,35 @@ NSString *funcDy(id self, SEL _cmd, int a)
         
         //types:返回值参数 i-int v-void @-id :-SEL
         //class_addMethod(dyClass, @selector(dyClassGreeting), (IMP)greeting, "NSString@:");
+        
+        //动态增加类变量
+        const char* height = "height";
+        class_addIvar(dyClass, height, sizeof(id), rint(log2(sizeof(id))), @encode(id));
+        
         objc_registerClassPair(dyClass);
         
         id dyobj =  [[dyClass alloc] init];
         NSLog(@"%@ types:%s", objc_msgSend(dyobj, @selector(dyClassGreeting)), types);
+        
+        id value = [NSNumber numberWithInt:15];
+        [dyobj setValue:value forKey:[NSString stringWithUTF8String:height]];
+        NSLog(@"height = %@", [dyobj valueForKey:[NSString stringWithUTF8String:height]]);
+    
  #pragma clang diagnostic pop
     }
+}
+
+//动态增加实例的变量
+-(void)dyObjcVar
+{
+    Class dyClass = objc_getClass("DyClass");
+    id dyClassInstance = [[dyClass alloc] init];
+    
+    NSNumber *width = [NSNumber numberWithInt:10];
+    objc_setAssociatedObject(dyClassInstance, @"width", width, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    
+    id result = objc_getAssociatedObject(dyClassInstance, @"width");
+    NSLog(@"width=%@", result);
 }
 
 -(void)objcInstance

@@ -7,124 +7,189 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA34DF9C1B1019A0005AF072 /* BasicGreeter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA34DF9B1B1019A0005AF072 /* BasicGreeter.m */; };
-		EA59AB681B0F1D370067254F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA59AB671B0F1D370067254F /* Foundation.framework */; };
-		EA59AB6B1B0F1D370067254F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA59AB6A1B0F1D370067254F /* main.m */; };
-		EA59AB6F1B0F1D370067254F /* Object_C.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA59AB6E1B0F1D370067254F /* Object_C.1 */; };
-		EA59AB771B0F1D5C0067254F /* Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = EA59AB761B0F1D5C0067254F /* Runtime.m */; };
-		EA59AB7A1B0F297F0067254F /* testClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EA59AB791B0F297F0067254F /* testClass.m */; };
-		EA59AB7D1B0F475C0067254F /* bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = EA59AB7C1B0F475C0067254F /* bridge.m */; };
-		EAF4245C1B107EB500C45574 /* fundationClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF4245B1B107EB500C45574 /* fundationClass.m */; };
+		EA4C52071B11FD3E00AF6838 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4C52061B11FD3E00AF6838 /* Foundation.framework */; };
+		EA4C520A1B11FD3E00AF6838 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C52091B11FD3E00AF6838 /* main.m */; };
+		EA4C520E1B11FD3E00AF6838 /* Object_C.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA4C520D1B11FD3E00AF6838 /* Object_C.1 */; };
+		EA4C52231B1205F700AF6838 /* bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C52221B1205F700AF6838 /* bridge.m */; };
+		EA4C52311B12065500AF6838 /* fundationClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C52261B12065500AF6838 /* fundationClass.m */; };
+		EA4C52321B12065500AF6838 /* BasicGreeter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C52291B12065500AF6838 /* BasicGreeter.m */; };
+		EA4C52331B12065500AF6838 /* Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C522D1B12065500AF6838 /* Runtime.m */; };
+		EA4C52341B12065500AF6838 /* testClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C52301B12065500AF6838 /* testClass.m */; };
+		EA7ED4491B12B06500D723A7 /* AuditingInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7ED4481B12B06500D723A7 /* AuditingInvoker.m */; };
+		EA7ED44C1B12B1B300D723A7 /* AspectProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7ED44B1B12B1B300D723A7 /* AspectProxy.m */; };
+		EA7ED44F1B12BBB600D723A7 /* proxyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7ED44E1B12BBB600D723A7 /* proxyTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EA59AB621B0F1D370067254F /* CopyFiles */ = {
+		EA4C52011B11FD3E00AF6838 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				EA59AB6F1B0F1D370067254F /* Object_C.1 in CopyFiles */,
+				EA4C520E1B11FD3E00AF6838 /* Object_C.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EA34DF991B1018A3005AF072 /* Greeter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Greeter.h; sourceTree = "<group>"; };
-		EA34DF9A1B1019A0005AF072 /* BasicGreeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicGreeter.h; sourceTree = "<group>"; };
-		EA34DF9B1B1019A0005AF072 /* BasicGreeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicGreeter.m; sourceTree = "<group>"; };
-		EA59AB641B0F1D370067254F /* Object-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Object-C"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA59AB671B0F1D370067254F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		EA59AB6A1B0F1D370067254F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EA59AB6D1B0F1D370067254F /* Object-C-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Object-C-Prefix.pch"; sourceTree = "<group>"; };
-		EA59AB6E1B0F1D370067254F /* Object_C.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Object_C.1; sourceTree = "<group>"; };
-		EA59AB751B0F1D5C0067254F /* Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runtime.h; sourceTree = "<group>"; };
-		EA59AB761B0F1D5C0067254F /* Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Runtime.m; sourceTree = "<group>"; };
-		EA59AB781B0F297F0067254F /* testClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testClass.h; sourceTree = "<group>"; };
-		EA59AB791B0F297F0067254F /* testClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testClass.m; sourceTree = "<group>"; };
-		EA59AB7B1B0F475C0067254F /* bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
-		EA59AB7C1B0F475C0067254F /* bridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bridge.m; sourceTree = "<group>"; };
-		EAF4245A1B107EB500C45574 /* fundationClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fundationClass.h; sourceTree = "<group>"; };
-		EAF4245B1B107EB500C45574 /* fundationClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fundationClass.m; sourceTree = "<group>"; };
+		EA4C52031B11FD3E00AF6838 /* Object-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Object-C"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4C52061B11FD3E00AF6838 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA4C52091B11FD3E00AF6838 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA4C520C1B11FD3E00AF6838 /* Object-C-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Object-C-Prefix.pch"; sourceTree = "<group>"; };
+		EA4C520D1B11FD3E00AF6838 /* Object_C.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Object_C.1; sourceTree = "<group>"; };
+		EA4C521C1B1201FC00AF6838 /* Greeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Greeter.h; sourceTree = "<group>"; };
+		EA4C52211B1205F700AF6838 /* bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		EA4C52221B1205F700AF6838 /* bridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bridge.m; sourceTree = "<group>"; };
+		EA4C52251B12065500AF6838 /* fundationClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fundationClass.h; sourceTree = "<group>"; };
+		EA4C52261B12065500AF6838 /* fundationClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fundationClass.m; sourceTree = "<group>"; };
+		EA4C52281B12065500AF6838 /* BasicGreeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicGreeter.h; sourceTree = "<group>"; };
+		EA4C52291B12065500AF6838 /* BasicGreeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicGreeter.m; sourceTree = "<group>"; };
+		EA4C522C1B12065500AF6838 /* Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runtime.h; sourceTree = "<group>"; };
+		EA4C522D1B12065500AF6838 /* Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Runtime.m; sourceTree = "<group>"; };
+		EA4C522F1B12065500AF6838 /* testClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testClass.h; sourceTree = "<group>"; };
+		EA4C52301B12065500AF6838 /* testClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testClass.m; sourceTree = "<group>"; };
+		EA7ED4461B12AFCE00D723A7 /* Invoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
+		EA7ED4471B12B06500D723A7 /* AuditingInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuditingInvoker.h; sourceTree = "<group>"; };
+		EA7ED4481B12B06500D723A7 /* AuditingInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuditingInvoker.m; sourceTree = "<group>"; };
+		EA7ED44A1B12B1B300D723A7 /* AspectProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AspectProxy.h; sourceTree = "<group>"; };
+		EA7ED44B1B12B1B300D723A7 /* AspectProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AspectProxy.m; sourceTree = "<group>"; };
+		EA7ED44D1B12BBB600D723A7 /* proxyTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proxyTest.h; sourceTree = "<group>"; };
+		EA7ED44E1B12BBB600D723A7 /* proxyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = proxyTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EA59AB611B0F1D370067254F /* Frameworks */ = {
+		EA4C52001B11FD3E00AF6838 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA59AB681B0F1D370067254F /* Foundation.framework in Frameworks */,
+				EA4C52071B11FD3E00AF6838 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EA59AB5B1B0F1D370067254F = {
+		EA4C51FA1B11FD3E00AF6838 = {
 			isa = PBXGroup;
 			children = (
-				EA59AB691B0F1D370067254F /* Object-C */,
-				EA59AB661B0F1D370067254F /* Frameworks */,
-				EA59AB651B0F1D370067254F /* Products */,
+				EA4C52081B11FD3E00AF6838 /* Object-C */,
+				EA4C52051B11FD3E00AF6838 /* Frameworks */,
+				EA4C52041B11FD3E00AF6838 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EA59AB651B0F1D370067254F /* Products */ = {
+		EA4C52041B11FD3E00AF6838 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA59AB641B0F1D370067254F /* Object-C */,
+				EA4C52031B11FD3E00AF6838 /* Object-C */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA59AB661B0F1D370067254F /* Frameworks */ = {
+		EA4C52051B11FD3E00AF6838 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EA59AB671B0F1D370067254F /* Foundation.framework */,
+				EA4C52061B11FD3E00AF6838 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EA59AB691B0F1D370067254F /* Object-C */ = {
+		EA4C52081B11FD3E00AF6838 /* Object-C */ = {
 			isa = PBXGroup;
 			children = (
-				EA59AB6A1B0F1D370067254F /* main.m */,
-				EAF4245A1B107EB500C45574 /* fundationClass.h */,
-				EAF4245B1B107EB500C45574 /* fundationClass.m */,
-				EA59AB7B1B0F475C0067254F /* bridge.h */,
-				EA59AB7C1B0F475C0067254F /* bridge.m */,
-				EA34DF991B1018A3005AF072 /* Greeter.h */,
-				EA34DF9A1B1019A0005AF072 /* BasicGreeter.h */,
-				EA34DF9B1B1019A0005AF072 /* BasicGreeter.m */,
-				EA59AB751B0F1D5C0067254F /* Runtime.h */,
-				EA59AB761B0F1D5C0067254F /* Runtime.m */,
-				EA59AB781B0F297F0067254F /* testClass.h */,
-				EA59AB791B0F297F0067254F /* testClass.m */,
-				EA59AB6E1B0F1D370067254F /* Object_C.1 */,
-				EA59AB6C1B0F1D370067254F /* Supporting Files */,
+				EA4C52371B12077900AF6838 /* appectProxy */,
+				EA4C52241B12065500AF6838 /* bundle */,
+				EA4C52271B12065500AF6838 /* protocal */,
+				EA4C522B1B12065500AF6838 /* runtime */,
+				EA4C522E1B12065500AF6838 /* test */,
+				EA4C52201B1205F700AF6838 /* bridge */,
+				EA4C52091B11FD3E00AF6838 /* main.m */,
+				EA4C520D1B11FD3E00AF6838 /* Object_C.1 */,
+				EA4C521C1B1201FC00AF6838 /* Greeter.h */,
+				EA4C520B1B11FD3E00AF6838 /* Supporting Files */,
 			);
 			path = "Object-C";
 			sourceTree = "<group>";
 		};
-		EA59AB6C1B0F1D370067254F /* Supporting Files */ = {
+		EA4C520B1B11FD3E00AF6838 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EA59AB6D1B0F1D370067254F /* Object-C-Prefix.pch */,
+				EA4C520C1B11FD3E00AF6838 /* Object-C-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA4C52201B1205F700AF6838 /* bridge */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C52211B1205F700AF6838 /* bridge.h */,
+				EA4C52221B1205F700AF6838 /* bridge.m */,
+			);
+			path = bridge;
+			sourceTree = "<group>";
+		};
+		EA4C52241B12065500AF6838 /* bundle */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C52251B12065500AF6838 /* fundationClass.h */,
+				EA4C52261B12065500AF6838 /* fundationClass.m */,
+			);
+			path = bundle;
+			sourceTree = "<group>";
+		};
+		EA4C52271B12065500AF6838 /* protocal */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C52281B12065500AF6838 /* BasicGreeter.h */,
+				EA4C52291B12065500AF6838 /* BasicGreeter.m */,
+			);
+			path = protocal;
+			sourceTree = "<group>";
+		};
+		EA4C522B1B12065500AF6838 /* runtime */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C522C1B12065500AF6838 /* Runtime.h */,
+				EA4C522D1B12065500AF6838 /* Runtime.m */,
+			);
+			path = runtime;
+			sourceTree = "<group>";
+		};
+		EA4C522E1B12065500AF6838 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C522F1B12065500AF6838 /* testClass.h */,
+				EA4C52301B12065500AF6838 /* testClass.m */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		EA4C52371B12077900AF6838 /* appectProxy */ = {
+			isa = PBXGroup;
+			children = (
+				EA7ED4461B12AFCE00D723A7 /* Invoker.h */,
+				EA7ED4471B12B06500D723A7 /* AuditingInvoker.h */,
+				EA7ED4481B12B06500D723A7 /* AuditingInvoker.m */,
+				EA7ED44A1B12B1B300D723A7 /* AspectProxy.h */,
+				EA7ED44B1B12B1B300D723A7 /* AspectProxy.m */,
+				EA7ED44D1B12BBB600D723A7 /* proxyTest.h */,
+				EA7ED44E1B12BBB600D723A7 /* proxyTest.m */,
+			);
+			path = appectProxy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA59AB631B0F1D370067254F /* Object-C */ = {
+		EA4C52021B11FD3E00AF6838 /* Object-C */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA59AB721B0F1D370067254F /* Build configuration list for PBXNativeTarget "Object-C" */;
+			buildConfigurationList = EA4C52111B11FD3E00AF6838 /* Build configuration list for PBXNativeTarget "Object-C" */;
 			buildPhases = (
-				EA59AB601B0F1D370067254F /* Sources */,
-				EA59AB611B0F1D370067254F /* Frameworks */,
-				EA59AB621B0F1D370067254F /* CopyFiles */,
+				EA4C51FF1B11FD3E00AF6838 /* Sources */,
+				EA4C52001B11FD3E00AF6838 /* Frameworks */,
+				EA4C52011B11FD3E00AF6838 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -132,53 +197,56 @@
 			);
 			name = "Object-C";
 			productName = "Object-C";
-			productReference = EA59AB641B0F1D370067254F /* Object-C */;
+			productReference = EA4C52031B11FD3E00AF6838 /* Object-C */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EA59AB5C1B0F1D370067254F /* Project object */ = {
+		EA4C51FB1B11FD3E00AF6838 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 			};
-			buildConfigurationList = EA59AB5F1B0F1D370067254F /* Build configuration list for PBXProject "Object-C" */;
+			buildConfigurationList = EA4C51FE1B11FD3E00AF6838 /* Build configuration list for PBXProject "Object-C" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = EA59AB5B1B0F1D370067254F;
-			productRefGroup = EA59AB651B0F1D370067254F /* Products */;
+			mainGroup = EA4C51FA1B11FD3E00AF6838;
+			productRefGroup = EA4C52041B11FD3E00AF6838 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA59AB631B0F1D370067254F /* Object-C */,
+				EA4C52021B11FD3E00AF6838 /* Object-C */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EA59AB601B0F1D370067254F /* Sources */ = {
+		EA4C51FF1B11FD3E00AF6838 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA34DF9C1B1019A0005AF072 /* BasicGreeter.m in Sources */,
-				EA59AB7D1B0F475C0067254F /* bridge.m in Sources */,
-				EA59AB7A1B0F297F0067254F /* testClass.m in Sources */,
-				EAF4245C1B107EB500C45574 /* fundationClass.m in Sources */,
-				EA59AB771B0F1D5C0067254F /* Runtime.m in Sources */,
-				EA59AB6B1B0F1D370067254F /* main.m in Sources */,
+				EA4C52341B12065500AF6838 /* testClass.m in Sources */,
+				EA7ED44F1B12BBB600D723A7 /* proxyTest.m in Sources */,
+				EA4C52311B12065500AF6838 /* fundationClass.m in Sources */,
+				EA7ED44C1B12B1B300D723A7 /* AspectProxy.m in Sources */,
+				EA4C52321B12065500AF6838 /* BasicGreeter.m in Sources */,
+				EA4C52231B1205F700AF6838 /* bridge.m in Sources */,
+				EA4C52331B12065500AF6838 /* Runtime.m in Sources */,
+				EA7ED4491B12B06500D723A7 /* AuditingInvoker.m in Sources */,
+				EA4C520A1B11FD3E00AF6838 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EA59AB701B0F1D370067254F /* Debug */ = {
+		EA4C520F1B11FD3E00AF6838 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,7 +284,7 @@
 			};
 			name = Debug;
 		};
-		EA59AB711B0F1D370067254F /* Release */ = {
+		EA4C52101B11FD3E00AF6838 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -248,7 +316,7 @@
 			};
 			name = Release;
 		};
-		EA59AB731B0F1D370067254F /* Debug */ = {
+		EA4C52121B11FD3E00AF6838 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -257,7 +325,7 @@
 			};
 			name = Debug;
 		};
-		EA59AB741B0F1D370067254F /* Release */ = {
+		EA4C52131B11FD3E00AF6838 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -269,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA59AB5F1B0F1D370067254F /* Build configuration list for PBXProject "Object-C" */ = {
+		EA4C51FE1B11FD3E00AF6838 /* Build configuration list for PBXProject "Object-C" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA59AB701B0F1D370067254F /* Debug */,
-				EA59AB711B0F1D370067254F /* Release */,
+				EA4C520F1B11FD3E00AF6838 /* Debug */,
+				EA4C52101B11FD3E00AF6838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA59AB721B0F1D370067254F /* Build configuration list for PBXNativeTarget "Object-C" */ = {
+		EA4C52111B11FD3E00AF6838 /* Build configuration list for PBXNativeTarget "Object-C" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA59AB731B0F1D370067254F /* Debug */,
-				EA59AB741B0F1D370067254F /* Release */,
+				EA4C52121B11FD3E00AF6838 /* Debug */,
+				EA4C52131B11FD3E00AF6838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EA59AB5C1B0F1D370067254F /* Project object */;
+	rootObject = EA4C51FB1B11FD3E00AF6838 /* Project object */;
 }
